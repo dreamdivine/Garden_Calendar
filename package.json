@@ -1,0 +1,37 @@
+{
+  "name": "js_project",
+  "version": "1.0.0",
+  "description": "Background",
+  "main": "index.js",
+  "dependencies": {
+    "babel-loader": "^8.2.2",
+    "core-js": "^3.17.2",
+    "css-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^2.2.2",
+    "regenerator-runtime": "^0.13.9",
+    "sass-loader": "^12.1.0",
+    "sass": "^1.39.0",
+    "webpack": "^5.52.0",
+    "webpack-cli": "^4.8.0"
+  },
+  "devDependencies": {},
+  "browserslist": [
+    "defaults"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dreamdivine/Garden_Calendar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dreamdivine/Garden_Calendar/issues"
+  },
+  "homepage": "https://github.com/dreamdivine/Garden_Calendar#readme"
+}
