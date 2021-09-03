@@ -39,16 +39,16 @@ Technologies, Libraries, APIs
 
 This project will be implemented with the following technologies:
 
-The Canvas API to render the game board
-Webpack to bundle and transpile the source JavaScript code
-npm to manage project dependencies
+I could not find any APIs related to the garden information that I need so I will be hardcoding it myself.
+I will be using the information that is provided on back of the seed packets that I have to get most of the information about how to grow them and when. 
+If I need more details then I will have to search on the website that I usually buy seeds from.
 
 Implementation Timeline
 NB:
 
 Friday Afternoon & Weekend: Setup project, including getting webpack up and running. Get canvas to show up on the screen, and spend time getting comfortable with the Canvas API. Find the picture that I can potentially use. Research ways to graph and show data more smoothly.
 
-Monday: Implement the graph and the picture and the wording on the canvas.
+Monday: I will collect data to add on the graph example when to grow them and the temperature the seeds need to germinate. 
 
 Tuesday: Try to work on the picture and place them in correct position. Try to make all the clicks and button works. 
 
