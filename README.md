@@ -46,14 +46,18 @@ If I need more details then I will have to search on the website that I usually 
 Implementation Timeline
 NB:
 
-Friday Afternoon & Weekend: Setup project, including getting webpack up and running. Get canvas to show up on the screen, and spend time getting comfortable with the Canvas API. Find the picture that I can potentially use. Research ways to graph and show data more smoothly.
+Friday: I am spending most of the friday, coming up with a timeline so it can help me through out my project. Then I will start on adding web pack and babel into my project file.I will try to find all the vegetables pictures that I can possibly use for the project..ie vegetable pics and the pictures i can use for the seasons. I will also do research on each vegetable seeds and when they can be planted. I will also do research on html and css so I have better understanding of how to effective use it.    
 
-Monday: I will collect data to add on the graph example when to grow them and the temperature the seeds need to germinate.
+Saturday: My goal is to have html done for at least for the main page (where it will show four seasons), the second page where it will have boxes and button for all the vegetables. Then I will work on the third page which is a graph of months when each vegetable can be grown. 
 
-Tuesday: Try to work on the picture and place them in correct position. Try to make all the clicks and button works.
+Sunday: I will work on fourth page where I can add details on the each vegetable icons/button.Then I will focus on CSS for all the four pages.   
+
+Monday: I will continue working on the css part and also incorporate JS with the css. I would do more research on JS so I have better understanding of how it can be made more interactive. 
+
+Tuesday: I will focus on making the graph and the pages more interactive. Most of tuesday will be making the overall pages more colorful and pleasing to the user. If time allows, I will be see if I want to corporate virtual background on the pages.   
 
 
-Wednesday: Finish implementing user controls, and focus on styling, as well as implementing the different color schemes and nav links.
+Wednesday: I will be mainly focusing on making the project more presentable and more interactive. I will asking others teammate and my project leader for feedback they can provide me on my project then implementing the changes.  
 
 Thursday Morning: Deploy to GitHub pages. If time, rewrite this proposal as a production README.
 
