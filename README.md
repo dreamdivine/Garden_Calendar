@@ -25,7 +25,8 @@ In Garden_Calendar, users will be able to:
 
 Wireframes
 
-<img src="images/seasons.jpeg" width="200"> <img src="broccoli.jpeg" width="200">
+<img src="images/seasons.jpeg" width="200"> 
+<img src="broccoli.jpeg" width="200">
 
 
 
