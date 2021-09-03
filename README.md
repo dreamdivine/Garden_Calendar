@@ -25,7 +25,7 @@ In Garden_Calendar, users will be able to:
 
 Wireframes
 
-<img src="images/initial.png" width="200"> 
+<img src="images/initial.png"> 
 
 
 . Nav links include links to this project's Github repo, and my LinkedIn.
