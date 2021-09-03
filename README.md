@@ -25,9 +25,9 @@ In Garden_Calendar, users will be able to:
 
 Wireframes
 
-<img src="images/seasons.jpeg" width="100">
+<img src="images/seasons.jpeg" width="200">
 
-![](images/seasons.jpeg)
+
 
 
 
