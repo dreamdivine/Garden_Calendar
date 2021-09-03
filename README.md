@@ -25,6 +25,8 @@ In Garden_Calendar, users will be able to:
 
 Wireframes
 
+![](images/seasons.jpeg)
+
 
 
 
