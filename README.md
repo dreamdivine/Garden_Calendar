@@ -1,4 +1,4 @@
-![seasons](https://user-images.githubusercontent.com/86028417/131954878-b1e4956e-9a1f-4162-abb0-1aa531f33fab.jpeg)
+
 # Garden_Calendar
 
 Background
@@ -24,6 +24,8 @@ In Garden_Calendar, users will be able to:
 . A production README 
 
 Wireframes
+
+![seasons](https://user-images.githubusercontent.com/86028417/131954878-b1e4956e-9a1f-4162-abb0-1aa531f33fab.jpeg)
 
 
 
