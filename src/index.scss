@@ -106,3 +106,28 @@ img{
     height: 50px;
 }
 
+.container .box .content{
+    position: absolute;
+    top: 300px;
+    // text-align: flex-end;
+    left: 15px;
+    padding: 5px;
+    margin: auto;
+    font: bold 15px Georgia,serif;
+    box-sizing: border-box;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.container .box:hover .content{
+    top: 100px;
+     opacity: 1;
+}
+
+button{
+    background: linear-gradient(90deg, pink, white, pink);
+    border-radius: 40px;
+    font-size: 13px;
+    font-weight: bold;
+
+}
