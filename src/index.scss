@@ -9,27 +9,47 @@ body{
 
 .container{
     position: relative;
-    width: 700px;
-    height: 165px;
+    width: 900px;
+    height: 300px;
     margin: 240px auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .container .box{
     position: relative;
     width: 140px;
     height: 140px;
-    background: black;
+    background: pink;
     float: left;
     margin: 15px;
     box-sizing: border-box;
     overflow: hidden;
-    border-radius: 30px;
-
+    border-radius: 10px;
 }
 
 img{
     max-width: 150%;
     max-height: 150%;
+}
+
+.container .box .winter{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    // background: white;
+    transition: all .5s linear;
+}
+
+.container .box:hover .winter{
+    top: 30px;
+    left: 40px;
+    right: 40px;
+    right: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
 }
