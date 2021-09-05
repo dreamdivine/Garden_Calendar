@@ -10,6 +10,12 @@ body {
   background: black;
 }
 
+.main {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
 .season {
   position: relative;
   width: 13%;
@@ -18,7 +24,6 @@ body {
   align-items: center;
   flex-direction: column;
   top: 60px;
-  background-color: blue;
 }
 
 .season .box {
@@ -155,19 +160,19 @@ button {
 
 .plants {
   position: relative;
-  width: 100%;
-  height: 100%;
+  width: 30%;
+  height: 15%;
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  justify-content: space-evenly;
   top: 60px;
   background-color: red;
+  flex-wrap: wrap;
 }
 
 .plants .vegetables {
   position: relative;
-  width: 140px;
-  height: 140px;
+  width: 80px;
+  height: 80px;
   background: pink;
   float: left;
   margin: 15px;
@@ -177,4 +182,5 @@ button {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  min-width: 70px;
 }
