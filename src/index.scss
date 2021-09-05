@@ -8,16 +8,26 @@ body{
     background: black;
 }
 
-.container{
-    position: relative;
-    width: 900px;
-    height: 300px;
-    margin: 240px auto;
-    display: flex;
-    justify-content: space-around;
-}
+// .season{
+//     position: relative;
+//     width: 900px;
+//     height: 300px;
+//     margin: 240px auto;
+//     display: flex;
+//     justify-content: space-around;
+// }
 
-.container .box{
+.season{
+    position: relative;
+    width: 13%;
+    height: 60%;
+    // margin: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    top: 60px;
+}
+.season .box{
     position: relative;
     width: 140px;
     height: 140px;
@@ -31,9 +41,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
 }
 
 img{
@@ -41,7 +48,7 @@ img{
     max-height: 150%;
 }
 
-.container .box .winter{
+.season .box .winter{
     position: absolute;
     top: 0;
     left: 0;
@@ -51,7 +58,7 @@ img{
     transition: all .5s linear;
 }
 
-.container .box:hover .winter{
+.season .box:hover .winter{
     top: 25px;
     left: 25px;
     right: 50px;
@@ -59,7 +66,7 @@ img{
     height: 50px;
 }
 
-.container .box .spring{
+.season .box .spring{
     position: absolute;
     top: 0;
     left: 0;
@@ -69,8 +76,7 @@ img{
     transition: all .5s linear;
 }
 
-
-.container .box:hover .spring{
+.season .box:hover .spring{
     top: 25px;
     left: 25px;
     right: 50px;
@@ -78,7 +84,7 @@ img{
     height: 50px;
 }
 
-.container .box .summer{
+.season .box .summer{
     position: absolute;
     top: 0;
     left: 0;
@@ -88,7 +94,7 @@ img{
     transition: all .5s linear;
 }
 
-.container .box:hover .summer{
+.season .box:hover .summer{
     top: 25px;
     left: 25px;
     right: 50px;
@@ -96,7 +102,7 @@ img{
     height: 50px;
 }
 
-.container .box .fall{
+.season .box .fall{
     position: absolute;
     top: 0;
     left: 0;
@@ -106,7 +112,7 @@ img{
     transition: all .5s linear;
 }
 
-.container .box:hover .fall{
+.season .box:hover .fall{
     top: 25px;
     left: 25px;
     right: 50px;
@@ -114,7 +120,7 @@ img{
     height: 50px;
 }
 
-.container .box .content{
+.season .box .content{
     position: absolute;
     top: 300px;
     // text-align: flex-end;
@@ -127,7 +133,7 @@ img{
     opacity: 0;
 }
 
-.container .box:hover .content{
+.season .box:hover .content{
     top: 100px;
      opacity: 1;
 }
@@ -137,6 +143,6 @@ button{
     border-radius: 40px;
     font-size: 13px;
     font-weight: bold;
-
+    color: black;
 }
 
