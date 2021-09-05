@@ -29,7 +29,6 @@ body {
   box-sizing: border-box;
   overflow: hidden;
   border-radius: 10px;
-  background-image: url(../images/1-background.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -135,4 +134,20 @@ button {
   font-size: 13px;
   font-weight: bold;
   color: black;
+}
+
+#snow {
+  background-image: url(../images/snowflakes.jpeg);
+}
+
+#flowers {
+  background-image: url(../images/flowers.jpeg);
+}
+
+#ocean {
+  background-image: url(../images/ocean.jpeg);
+}
+
+#fallColor {
+  background-image: url(../images/fall-fruit.jpeg);
 }
