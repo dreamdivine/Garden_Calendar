@@ -16,6 +16,9 @@ body{
 //     justify-content: space-around;
 // }
 
+
+
+
 .main{
     position: relative;
     display: flex;
@@ -47,8 +50,9 @@ body{
 }
 
 img{
-    max-width: 150%;
-    max-height: 150%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .season .box .winter{
@@ -65,8 +69,8 @@ img{
     top: 25px;
     left: 25px;
     right: 50px;
-    width: 50px;
-    height: 50px;
+    width: 0px;
+    height: 0px;
 }
 
 .season .box .spring{
@@ -83,8 +87,8 @@ img{
     top: 25px;
     left: 25px;
     right: 50px;
-    width: 50px;
-    height: 50px;
+    width: 0px;
+    height: 0px;
 }
 
 .season .box .summer{
@@ -101,8 +105,8 @@ img{
     top: 25px;
     left: 25px;
     right: 50px;
-    width: 50px;
-    height: 50px;
+    width: 0px;
+    height: 0px;
 }
 
 .season .box .fall{
@@ -119,8 +123,8 @@ img{
     top: 25px;
     left: 25px;
     right: 50px;
-    width: 50px;
-    height: 50px;
+    width: 0px;
+    height: 0px;
 }
 
 .season .box .content{
