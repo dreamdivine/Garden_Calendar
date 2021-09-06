@@ -196,10 +196,3 @@ img {
   opacity: 1;
   transform: translateY(0);
 }
-
-.graph {
-  background-color: red;
-  display: flex;
-  width: 700px;
-  height: 700px;
-}
