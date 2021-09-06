@@ -210,7 +210,7 @@ img{
       }
       .chartCard {
         width: 800px;
-        height: calc(100vh - 40px);
+        height: 800px;
         background: rgba(255, 26, 104, 0.2);
         display: flex;
         align-items: center;
@@ -218,6 +218,7 @@ img{
       }
       .chartBox {
         width: 700px;
+        height: 725px;
         padding: 20px;
         border-radius: 20px;
         background: white;
