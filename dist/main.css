@@ -152,7 +152,6 @@ img {
   display: flex;
   justify-content: space-evenly;
   top: 60px;
-  background-color: red;
   flex-wrap: wrap;
 }
 
@@ -198,17 +197,9 @@ img {
   transform: translateY(0);
 }
 
-.chartCard {
-  width: 100vw;
-  height: calc(100vh - 40px);
+.graph {
+  background-color: red;
   display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.chartBox {
-  width: 800px;
-  padding: 20px;
-  border-radius: 20px;
-  background: white;
+  width: 700px;
+  height: 700px;
 }
