@@ -115,15 +115,22 @@
            }
        }
        let filterData = [];
-       let filterColor = [];
+       let filterColors = [];
+       let filterBorder = [];
 
        for (let j = 0; j < filterLabels.length; j++){
            let index = myChart.data.labels.indexOf(filterLabels[j]);
            filterData.push(myChart.data.datasets[0].data[index])
+           filterColors.push(myChart.data.datasets[0].backgroundColor[index]);
+           filterBorder.push(myChart.data.datasets[0].borderColor[index]);
        }
-
-     
-
+       myChart.data.datasets[0].data = filterData;
+       myChart.data.labels = filterLabels;
+       myChart.data.datasets[0].backgroundColor = filterColors;
+       myChart.data.datasets[0].borderColor = filterBorder;
+       console.log(filterBorder);
+       myChart.update();
+  
     }
 // });
 
