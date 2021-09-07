@@ -89,7 +89,11 @@ const border = [
     'rgba(0, 0, 0, 1)',
 ]
 
-const plantSpacing = [48, 4, 12, 8, 4, 7, 18, 30, 12, 4, 24]
+const plantSpacing = [48, 4, 12, 8, 4, 7, 20, 30, 24, 4, 24, 12, 18, 8, 10, 48, 24, 6, 8, 18, 6, 12, 48, 8, 24, 6, 5, 6, 18, 15, 
+     60, 3, 4, 48, 60, 24, 6, 48]
+
+const rowSpacing = [72, 12, 20, 24, 12, 7, 30, 36, 36, 24, 36, 36, 24, 10, 30, 36, 24, 36, 12, 24, 16, 15, 48, 12, 36, 24, 12, 21, 21, 36, 60, 8, 12, 48, 60, 36, 15, 48]
+
 
 let elem = document.getElementById('myChart');
 let ctx = elem.getContext('2d');
@@ -98,7 +102,7 @@ let myChart = new Chart(ctx, {
         data: {
             labels: allCrops,
             datasets: [{
-                label: 'seed depth',
+                label: 'inches',
                 data: allDepths,
                 backgroundColor: color,
                 borderColor: border,
@@ -148,7 +152,71 @@ let myChart = new Chart(ctx, {
         myChart.update();
         }
 
+        function filterSpacing(array){
 
+            let filterLabels = [];
+
+            for (let i = 0; i < allCrops.length; i++) {
+                if (array.includes(allCrops[i])) {
+                    filterLabels.push(allCrops[i])
+                }
+            }
+            let filterData = [];
+            let filterColors = [];
+            let filterBorder = [];
+
+            for (let j = 0; j < filterLabels.length; j++) {
+                const result = allCrops.indexOf(filterLabels[j]);
+
+                const dataresult = plantSpacing[result];
+                const colorsresult = color[result];
+                const borderresult = border[result];
+
+                filterData.push(dataresult);
+                filterColors.push(colorsresult);
+                filterBorder.push(borderresult);
+            }
+
+            myChart.data.datasets[0].data = filterData;
+            myChart.data.labels = filterLabels;
+            myChart.data.datasets[0].backgroundColor = filterColors;
+            myChart.data.datasets[0].borderColor = filterBorder;
+            myChart.update();
+
+        }
+
+function filterRow(array) {
+
+    let filterLabels = [];
+
+    for (let i = 0; i < allCrops.length; i++) {
+        if (array.includes(allCrops[i])) {
+            filterLabels.push(allCrops[i])
+        }
+    }
+    let filterData = [];
+    let filterColors = [];
+    let filterBorder = [];
+
+    for (let j = 0; j < filterLabels.length; j++) {
+        const result = allCrops.indexOf(filterLabels[j]);
+
+        const dataresult = rowSpacing[result];
+        const colorsresult = color[result];
+        const borderresult = border[result];
+
+        filterData.push(dataresult);
+        filterColors.push(colorsresult);
+        filterBorder.push(borderresult);
+    }
+
+    myChart.data.datasets[0].data = filterData;
+    myChart.data.labels = filterLabels;
+    myChart.data.datasets[0].backgroundColor = filterColors;
+    myChart.data.datasets[0].borderColor = filterBorder;
+    myChart.update();
+
+}
 
 // });
 

@@ -13,7 +13,6 @@
 <body>
     <div class="main">
     <div class="season">
-        <button onclick="filterChart(winterCrops)">
         <div class="box" id="snow">
        <div class="winter">
             <img src="images/winter.png">
@@ -23,8 +22,12 @@
                 <h2>Planting Guide</h2>     
             </div>
         </div>
-        </button>
-        <button onclick="filterChart(springCrops)">
+        <div>
+        <button id = "winter-depth" onclick="filterChart(winterCrops)"> depth </button>
+        <button id="winter-spacing" onclick="filterSpacing(winterCrops)"> space </button>
+        <button id="winter-row-spacing" onclick="filterRow(winterCrops)"> row </button>
+        </div>
+       
         <div class="box" id="flowers">
             <div class="spring">
                 <img src="images/tulip2.png">
@@ -34,8 +37,13 @@
                 <h2>Planting Guide</h2>
             </div>
         </div>
-    </button>
-    <button onclick="filterChart(summerCrops)">
+
+        <div>
+            <button id="winter-depth" onclick="filterChart(springCrops)"> depth </button>
+            <button id="winter-spacing" onclick="filterSpacing(springCrops)"> space </button>
+            <button id="winter-row-spacing" onclick="filterRow(springCrops)"> row </button>
+        </div>
+    
         <div class="box" id="ocean">
             <div class="summer">
                 <img src="images/summer.png">
@@ -45,8 +53,13 @@
                 <h2>Planting Guide</h2>
             </div>
         </div>
-        </button>
-        <button onclick="filterChart(fallCrops)">
+
+        <div>
+            <button id="winter-depth" onclick="filterChart(summerCrops)"> depth </button>
+            <button id="winter-spacing" onclick="filterSpacing(summerCrops)"> space </button>
+            <button id="winter-row-spacing" onclick="filterRow(summerCrops)"> row </button>
+        </div>
+        
         <div class="box" id="fallColor">
             <div class="fall">
                 <img src="images/maple-leaves.png">
@@ -55,6 +68,12 @@
                 <h2>Fall</h2>
                 <h2>Planting Guide</h2>
             </div>
+        </div>
+
+        <div>
+            <button id="winter-depth" onclick="filterChart(fallCrops)"> depth </button>
+            <button id="winter-spacing" onclick="filterSpacing(fallCrops)"> space </button>
+            <button id="winter-row-spacing" onclick="filterRow(fallCrops)"> row </button>
         </div>
         
     </div>
