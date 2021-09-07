@@ -6,22 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="./dist/main.css" />
-    <script src="./dist/main.js"></script>
-    <title>Project Name</title>
+    <!-- <script src="./dist/main.js"></script> -->
+    <title>Garden Guide</title>
 </head>
 
 <body>
     <div class="main">
     <div class="season">
+        <button onclick="filterChart()">
         <div class="box" id="snow">
-            <div class="winter">
-                <img src="images/winter.png">
+       <div class="winter">
+            <img src="images/winter.png">
             </div>
             <div class="content">
                 <h2>Winter</h2>
                 <h2>Planting Guide</h2>     
             </div>
         </div>
+        </button>
         <div class="box" id="flowers">
             <div class="spring">
                 <img src="images/tulip2.png">
@@ -51,16 +53,13 @@
         </div>
     </div>
 
-<div class="plant-inch">
-    <div class="chartCard">
         <div class="chartBox">
             <canvas id="myChart"></canvas>
         </div>
-    </div>
+    
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script type="text/javascript" src="src/index.js"></script>
-</div> 
-
+    <script src="src/index.js"></script>
+    
     <div class="plants">
         <div class="vegetables">
             <img src="images/artichoke.jpeg">
