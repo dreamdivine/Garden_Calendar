@@ -13,7 +13,7 @@
 <body>
     <div class="main">
     <div class="season">
-        <button onclick="filterChart()">
+        <button onclick="filterChart(winterCrops)">
         <div class="box" id="snow">
        <div class="winter">
             <img src="images/winter.png">
@@ -24,6 +24,7 @@
             </div>
         </div>
         </button>
+        <button onclick="filterChart(springCrops)">
         <div class="box" id="flowers">
             <div class="spring">
                 <img src="images/tulip2.png">
@@ -33,6 +34,8 @@
                 <h2>Planting Guide</h2>
             </div>
         </div>
+    </button>
+    <button onclick="filterChart(summerCrops)">
         <div class="box" id="ocean">
             <div class="summer">
                 <img src="images/summer.png">
@@ -42,6 +45,8 @@
                 <h2>Planting Guide</h2>
             </div>
         </div>
+        </button>
+        <button onclick="filterChart(springCrops)">
         <div class="box" id="fallColor">
             <div class="fall">
                 <img src="images/maple-leaves.png">
@@ -51,6 +56,7 @@
                 <h2>Planting Guide</h2>
             </div>
         </div>
+        
     </div>
 
         <div class="chartBox">
