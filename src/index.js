@@ -1,8 +1,8 @@
-const allCrops = ["Artichoke", "Arugula", "Basil", "Beans", "Beets", "Bokchoy", "Broccoli", "Brussel sprout", "Cabbage", "Carrots", "Cauliflower", "Celery", "Chard", "Cilantro", "Corn", "Cucumber", "Eggplant", "Fava bean", "Garlic", "Kale", "Leek", "Lettuce", "Melon", "Mustard", "Okra", "Onion", "Parsley", "Peas", "Pepper", "Potato", "Pumpkin", "Radish", "Spinach", "Squash", "Watermelon", "Tomato", "Turnip", "Zucchini"]
-const allDepths = [0.5, 0.5, 0.25, 1, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.25, 0.25, 0.5, 2, 1, 2, 1, 3, 0.5, 0.25, 0.25, 1, 0.5, 0.5, 0.5, 1, 1, 0.25, 6, 1, 1, 0.5, 1, 1, 0.5, 0.5, 1]
+const allCrops = ["Artichoke", "Arugula", "Asparagus", "Basil", "Beans", "Beets", "Bokchoy", "Broccoli", "Brussel sprout", "Cabbage", "Carrots", "Cauliflower", "Celery", "Chard", "Cilantro", "Corn", "Cucumber", "Eggplant", "Fava bean", "Garlic", "Kale", "Leek", "Lettuce", "Melon", "Mustard", "Okra", "Onion", "Parsley", "Peas", "Pepper", "Potato", "Pumpkin", "Radish", "Spinach", "Squash", "Watermelon", "Tomato", "Turnip", "Zucchini"]
+const allDepths = [0.5, 0.5, 0.5, 0.25, 1, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.25, 0.25, 0.5, 2, 1, 2, 1, 3, 0.5, 0.25, 0.25, 1, 0.5, 0.5, 0.5, 1, 1, 0.25, 6, 1, 1, 0.5, 1, 1, 0.5, 0.5, 1]
 const winterCrops = ["Bokchoy", "Broccoli", "Brussel sprout", "Cabbage", "Garlic", "Kale", "Mustard", "Onion", "Parsley", "Peas", "Potato", "Radish"]
-const springCrops = ["Arugula", "Basil", "Beans", "Beets", "Bokchoy", "Broccoli", "Brussel Sprout", "Cabbage", "Carrots", "Cauliflower", "Celery", "Chard", "Cilantro", "Cucumber", "Eggplant", "Fava bean", "Lettuce", "Melon", "Mustard", "Parsley", "Peas", "Peppers", "Potato", "Pumpkin", "Radish", "Spinach", "Squash", "Watermelon", "Tomatoes", "Turnip", "Zucchini"]
-const fallCrops = ["Artichoke", "Beets", "Bokchoy", "Broccoli", "Brussel sprout", "Cabbage", "Carrots", "Cauliflower", "Chard", "Cilantro", "Fava bean", "Leek", "Lettuce", "Mustard", "Onion", "Radish", "Spinach", "Turnip"]
+const springCrops = ["Arugula", "Asparagus", "Basil", "Beans", "Beets", "Bokchoy", "Broccoli", "Brussel Sprout", "Cabbage", "Carrots", "Cauliflower", "Celery", "Chard", "Cilantro", "Cucumber", "Eggplant", "Fava bean", "Lettuce", "Melon", "Mustard", "Parsley", "Peas", "Peppers", "Potato", "Pumpkin", "Radish", "Spinach", "Squash", "Watermelon", "Tomatoes", "Turnip", "Zucchini"]
+const fallCrops = ["Artichoke", "Asparagus", "Beets", "Bokchoy", "Broccoli", "Brussel sprout", "Cabbage", "Carrots", "Cauliflower", "Chard", "Cilantro", "Fava bean", "Leek", "Lettuce", "Mustard", "Onion", "Radish", "Spinach", "Turnip"]
 const summerCrops = ["Beans", "Corn", "Cucumber", "Eggplant", "Leek", "Melon", "Okra", "Pepper", "Pumpkin", "Squash", "Watermelon", "Tomato", "Zucchini"]
 const color = [
     'rgba(255, 26, 104, 0.2)',
@@ -88,10 +88,10 @@ const border = [
     'rgba(0, 0, 0, 1)',
 ]
 
-const plantSpacing = [48, 4, 12, 8, 4, 7, 20, 30, 24, 4, 24, 12, 18, 8, 10, 48, 24, 6, 8, 18, 6, 12, 48, 8, 24, 6, 5, 6, 18, 15, 
+const plantSpacing = [48, 4, 6, 12, 8, 4, 7, 20, 30, 24, 4, 24, 12, 18, 8, 10, 48, 24, 6, 8, 18, 6, 12, 48, 8, 24, 6, 5, 6, 18, 15, 
      60, 3, 4, 48, 60, 24, 6, 48]
 
-const rowSpacing = [72, 12, 20, 24, 12, 7, 30, 36, 36, 24, 36, 36, 24, 10, 30, 36, 24, 36, 12, 24, 16, 15, 48, 12, 36, 24, 12, 21, 21, 36, 60, 8, 12, 48, 60, 36, 15, 48]
+const rowSpacing = [72, 12, 18, 20, 24, 12, 7, 30, 36, 36, 24, 36, 36, 24, 10, 30, 36, 24, 36, 12, 24, 16, 15, 48, 12, 36, 24, 12, 21, 21, 36, 60, 8, 12, 48, 60, 36, 15, 48]
 
 
 let elem = document.getElementById('myChart');
@@ -227,47 +227,6 @@ artichokeBtn.addEventListener('click', function(){
 artichokeClose.addEventListener('click', function(){
     artichokeGuide.classList.remove('artichoke-active');
 })
-
-
-
-// var arugulaBtn = document.querySelector('.arugula-button');
-// var arugulaGuide = document.querySelector('.arugula-guide');
-// var arugulaClose = document.querySelector('.arugula-close');
-
-// arugulaBtn.addEventListener('click', function () {
-//     arugulaGuide.classList.add('arugula-active');
-// });
-
-// arugulaClose.addEventListener('click', function () {
-//     arugulaGuide.classList.remove('arugula-active');
-// })
-
-
-
-// var asparagusBtn = document.querySelector('.asparagus-button');
-// var asparagusGuide = document.querySelector('.asparagus-guide');
-// var asparagusClose = document.querySelector('.asparagus-close');
-
-// asparagusBtn.addEventListener('click', function () {
-//     asparagusGuide.classList.add('asparagus-active');
-// });
-
-// asparagusClose.addEventListener('click', function () {
-//     asparagusGuide.classList.remove('asparagus-active');
-// })
-
-
-// var basilBtn = document.querySelector('.basil-button');
-// var basilGuide = document.querySelector('.basil-guide');
-// var basilClose = document.querySelector('.basil-close');
-
-// basilBtn.addEventListener('click', function () {
-//     basilGuide.classList.add('basil-active');
-// });
-
-// basilClose.addEventListener('click', function () {
-//     basilGuide.classList.remove('basil-active');
-// })
 
 
 
