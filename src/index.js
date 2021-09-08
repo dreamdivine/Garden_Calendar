@@ -255,6 +255,17 @@ asparagusClose.addEventListener('click', function () {
 })
 
 
+var basilBtn = document.querySelector('.basil-button');
+var basilGuide = document.querySelector('.basil-guide');
+var basilClose = document.querySelector('.basil-close');
+
+basilBtn.addEventListener('click', function () {
+    basilGuide.classList.add('basil-active');
+});
+
+basilClose.addEventListener('click', function () {
+    basilGuide.classList.remove('basil-active');
+})
 
 
 
