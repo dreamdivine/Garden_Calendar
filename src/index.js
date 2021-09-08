@@ -122,7 +122,7 @@ let myChart = new Chart(ctx, {
     });
 
     function filterChart(array){
-            let filterLabels = [];
+        let filterLabels = [];
 
         for (let i = 0; i < allCrops.length; i++){
             if (array.includes(allCrops[i])){
@@ -215,8 +215,8 @@ function filterRow(array) {
     myChart.data.datasets[0].backgroundColor = filterColors;
     myChart.data.datasets[0].borderColor = filterBorder;
     myChart.update();
-
 }
+
 
 // });
 

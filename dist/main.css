@@ -205,3 +205,14 @@ img {
   background: white;
   overflow: hidden;
 }
+
+button {
+  background-color: black;
+  padding: 0px;
+  margin: 0px;
+  color: white;
+}
+
+#vegie-button {
+  border: none;
+}
