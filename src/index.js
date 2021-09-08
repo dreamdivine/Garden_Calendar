@@ -228,44 +228,46 @@ artichokeClose.addEventListener('click', function(){
     artichokeGuide.classList.remove('artichoke-active');
 })
 
-var arugulaBtn = document.querySelector('.arugula-button');
-var arugulaGuide = document.querySelector('.arugula-guide');
-var arugulaClose = document.querySelector('.arugula-close');
-
-arugulaBtn.addEventListener('click', function () {
-    arugulaGuide.classList.add('arugula-active');
-});
-
-arugulaClose.addEventListener('click', function () {
-    arugulaGuide.classList.remove('arugula-active');
-})
 
 
+// var arugulaBtn = document.querySelector('.arugula-button');
+// var arugulaGuide = document.querySelector('.arugula-guide');
+// var arugulaClose = document.querySelector('.arugula-close');
 
-var asparagusBtn = document.querySelector('.asparagus-button');
-var asparagusGuide = document.querySelector('.asparagus-guide');
-var asparagusClose = document.querySelector('.asparagus-close');
+// arugulaBtn.addEventListener('click', function () {
+//     arugulaGuide.classList.add('arugula-active');
+// });
 
-asparagusBtn.addEventListener('click', function () {
-    asparagusGuide.classList.add('asparagus-active');
-});
-
-asparagusClose.addEventListener('click', function () {
-    asparagusGuide.classList.remove('asparagus-active');
-})
+// arugulaClose.addEventListener('click', function () {
+//     arugulaGuide.classList.remove('arugula-active');
+// })
 
 
-var basilBtn = document.querySelector('.basil-button');
-var basilGuide = document.querySelector('.basil-guide');
-var basilClose = document.querySelector('.basil-close');
 
-basilBtn.addEventListener('click', function () {
-    basilGuide.classList.add('basil-active');
-});
+// var asparagusBtn = document.querySelector('.asparagus-button');
+// var asparagusGuide = document.querySelector('.asparagus-guide');
+// var asparagusClose = document.querySelector('.asparagus-close');
 
-basilClose.addEventListener('click', function () {
-    basilGuide.classList.remove('basil-active');
-})
+// asparagusBtn.addEventListener('click', function () {
+//     asparagusGuide.classList.add('asparagus-active');
+// });
+
+// asparagusClose.addEventListener('click', function () {
+//     asparagusGuide.classList.remove('asparagus-active');
+// })
+
+
+// var basilBtn = document.querySelector('.basil-button');
+// var basilGuide = document.querySelector('.basil-guide');
+// var basilClose = document.querySelector('.basil-close');
+
+// basilBtn.addEventListener('click', function () {
+//     basilGuide.classList.add('basil-active');
+// });
+
+// basilClose.addEventListener('click', function () {
+//     basilGuide.classList.remove('basil-active');
+// })
 
 
 
