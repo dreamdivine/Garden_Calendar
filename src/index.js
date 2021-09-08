@@ -1,4 +1,3 @@
-// document.addEventListener("DOMContentLoaded", function (event) {
 const allCrops = ["Artichoke", "Arugula", "Basil", "Beans", "Beets", "Bokchoy", "Broccoli", "Brussel sprout", "Cabbage", "Carrots", "Cauliflower", "Celery", "Chard", "Cilantro", "Corn", "Cucumber", "Eggplant", "Fava bean", "Garlic", "Kale", "Leek", "Lettuce", "Melon", "Mustard", "Okra", "Onion", "Parsley", "Peas", "Pepper", "Potato", "Pumpkin", "Radish", "Spinach", "Squash", "Watermelon", "Tomato", "Turnip", "Zucchini"]
 const allDepths = [0.5, 0.5, 0.25, 1, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.25, 0.25, 0.5, 2, 1, 2, 1, 3, 0.5, 0.25, 0.25, 1, 0.5, 0.5, 0.5, 1, 1, 0.25, 6, 1, 1, 0.5, 1, 1, 0.5, 0.5, 1]
 const winterCrops = ["Bokchoy", "Broccoli", "Brussel sprout", "Cabbage", "Garlic", "Kale", "Mustard", "Onion", "Parsley", "Peas", "Potato", "Radish"]
@@ -217,7 +216,45 @@ function filterRow(array) {
     myChart.update();
 }
 
+var artichokeBtn = document.querySelector('.artichoke-button');
+var artichokeGuide = document.querySelector('.artichoke-guide');
+var artichokeClose = document.querySelector('.artichoke-close');
 
-// });
+artichokeBtn.addEventListener('click', function(){
+    artichokeGuide.classList.add('artichoke-active');
+});
+
+artichokeClose.addEventListener('click', function(){
+    artichokeGuide.classList.remove('artichoke-active');
+})
+
+var arugulaBtn = document.querySelector('.arugula-button');
+var arugulaGuide = document.querySelector('.arugula-guide');
+var arugulaClose = document.querySelector('.arugula-close');
+
+arugulaBtn.addEventListener('click', function () {
+    arugulaGuide.classList.add('arugula-active');
+});
+
+arugulaClose.addEventListener('click', function () {
+    arugulaGuide.classList.remove('arugula-active');
+})
+
+
+
+var asparagusBtn = document.querySelector('.asparagus-button');
+var asparagusGuide = document.querySelector('.asparagus-guide');
+var asparagusClose = document.querySelector('.asparagus-close');
+
+asparagusBtn.addEventListener('click', function () {
+    asparagusGuide.classList.add('asparagus-active');
+});
+
+asparagusClose.addEventListener('click', function () {
+    asparagusGuide.classList.remove('asparagus-active');
+})
+
+
+
 
 
