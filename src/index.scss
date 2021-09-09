@@ -7,7 +7,6 @@ body{
     background: black;
 }
 .social-menu ul{
-    position: absolute;
     padding: 0;
     margin: 0;
     display: flex;
@@ -26,7 +25,6 @@ body{
     color: white;
 }
 
-
 .main{
     position: relative;
     display: flex;
@@ -37,7 +35,6 @@ body{
     position: relative;
     width: 13%;
     height: 60%;
-    // margin: auto;
     display: flex;
     align-items: center;
     flex-direction: column;
