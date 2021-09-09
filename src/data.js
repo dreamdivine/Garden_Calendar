@@ -2,8 +2,26 @@ const cropsName = ["artichoke", "arugula", "asparagus", "basil", "beans", "beets
 
 
 plantData = {
-    "artichoke": "PREPARING THE GARDEN <br/><br/> The artichoke is a perennial,/ so prepare the soil well before planting. Mix manure, compost, or other organic matter into the first foot of soil in about equal volumes.<br/><br/>Artichokes don't reproduce true from seed, so they're best planted by using root divisions available at nurseries. Or a healthy plant can be dug up, the root divided into two or more parts and replanted. Artichoke plants reach a height of 3 or 4 feet and a spread of up to 6 feet in diameter, so allow plenty of space for them to grow. In the vegetable garden, plant them to the side so that they won't be disturbed by the more frequent planting of annual vegetables. They should be spaded at intervals of 4 to 6 feet along the row with 6 to 8 feet between the rows. In the ornamental garden, don't plant them near tree roots, as they don't compete well for nutrients and water.</br> The root sections should be set 6 to 8 inches deep in the soil.<br/><br/> Irrigate thoroughly before planting.",
-    "arugula": "Growing Guide<br/><br/>Prefers rich humusy soil with pH of 6 to 6.8, but will tolerate wide variety of conditions. Evenly moist soil will help slow bolting.<br/> Growth is low and compact until heat causes plant to bolt. <br/> Forms a rosette of deeply lobed leaves. Plants become erect when heat induces bolting.<br/>Flowers are edible <br/><br/> MAINTAINING <br/>Seeds germinate quickly even in cold soil. Plant as soon as soil can be worked in spring.<br/>Avoid planting after other cabbage family crops.<br/> Plant ¼ inch deep and 1 inch apart in rows, or broadcast alone or mixed with other greens. Gradually thin to 6-inch spacings using thinnings for salads.<br/> Make new plantings every 2 to 3 weeks for a continuous supply until about a month before your average first frost date.",
+    "artichoke": `
+      <h2>PREPARING THE GARDEN</h2>
+      <p>The artichoke is a perennial, so prepare the soil well before planting.
+       Mix manure, compost, or other organic matter into the first foot of soil
+       in about equal volumes.</p>
+       <p>Artichokes don't reproduce true from seed, so they're best planted by using root divisions available at nurseries. Or a healthy plant can be dug up, the root divided into two or more parts and replanted. Artichoke plants reach a height of 3 or 4 feet and a spread of up to 6 feet in diameter, so allow plenty of space for them to grow. In the vegetable garden, plant them to the side so that they won't be disturbed by the more frequent planting of annual vegetables. They should be spaded at intervals of 4 to 6 feet along the row with 6 to 8 feet between the rows. In the ornamental garden, don't plant them near tree roots, as they don't compete well for nutrients and water.</br> The root sections should be set 6 to 8 inches deep in the soil.<br/><br/> Irrigate thoroughly before planting.</p>
+      <span class="close">X</span>`,
+    "arugula": `<h2>Growing Guide</h2>
+    <p>Prefers rich humusy soil with pH of 6 to 6.8, but will tolerate wide variety of conditions. Evenly moist soil will help slow bolting.
+    <p>Growth is low and compact until heat causes plant to bolt.</p> 
+    <p>Forms a rosette of deeply lobed leaves. Plants become erect when heat induces bolting.</p>
+     <br/>
+     <p> MAINTAINING </p> 
+     <br/>
+     <p>Seeds germinate quickly even in cold soil. Plant as soon as soil can be worked in spring.</p>
+     <br/>
+     <p>Avoid planting after other cabbage family crops.</p>
+     <br/> 
+     <p>Plant ¼ inch deep and 1 inch apart in rows, or broadcast alone or mixed with other greens. Gradually thin to 6-inch spacings using thinnings for salads.<br/> Make new plantings every 2 to 3 weeks for a continuous supply until about a month before your average first frost date.</p>
+    <span class="close">X</span>`,
     "asparagus": "Asparagus is a hardy perennial suited to USDA zones 2 to 8 and is native to western Europe. This perennial can remain viable for 10 to 20 years, so choose your garden site carefully. Asparagus needs a soil pH of between 7.0 and 7.2 in fertile, well-draining soil. <br/><br/> There’s no trick to growing asparagus from seeds, just be patient. It’s recommended that you start asparagus seeds indoors or in a greenhouse in mid-February to May under bright lighting. Soil temperatures for seed germination should be between 70 and 85 degrees F. (21-29 C.). Soak the seeds for a couple of hours, then plant each seed ½ inch (1 cm.) deep in sterile soil, in individual 2 inch (5 cm.) pots. They should sprout anywhere between two and eight weeks from planting asparagus seeds.",
     "basil": "Growing Guide <br/><br/> Needs 6 at least 6 hours of sun per day. <br/> Prefers steady moisture and warm soil. <br/><br/> Maintaining <br/> Plant basil in fertile soil in a spot that gets direct sun for at least 6 hours per day. Pinch the tip from the center shoot of basil after it has grown for 6 weeks to force side growth and prevent early flowering. If flower stalks develop, simply snip them off. Basil needs a steady supply of moisture and warm soil temperatures to produce well, so you have to play a balancing act with mulch. In cool areas, delay mulching until the soil temperature has reached the mid-60s. Where summer really heats up and soil loses moisture quickly, you can add mulch sooner. <br/> Basil has few pests, but occasionally generalist pests such as aphids, flea beetles, and Japanese beetles will feast upon it. Rinse off aphids with a garden hose. To prevent beetles from munching, cover the crop with fabric row cover. If slugs are a problem on new transplants, try a barrier of copper flashing.",
     "beans": "Growing Guide<br/><br/> Beans generally do not respond well to transplanting, and are usually direct sown around or just after the last spring frost. The most important point about growing beans is not to plant them too early. They will rot in cool, damp soil. Even so, many beans require a long growing season of 80 days or more. To get an earlier start, you can put down black plastic, to warm the soil. <br/><br/> Most beans should be sown with the eye of the been facing downward, 1-2 inches deep, approximately 4 - 6 inches apart, with 24 inches or more between rows.The ideal site will be sunny, well - drained, moderately fertile, and slightly acidic(pH 6.0 - 7.0).Additionally, bean plants should be well - ventilated to promote proper development and deter mildew or mold that can trouble plants.Beans should not be grown in the same spot more than once every four years, and can be mutually beneficial with corn, strawberries and cucumber.Avoid planting beans near onion or fennel. <br/><br/> MAINTAINING BEANS <br/> When watering, try to avoid getting the leaves wet as this can promote fungus or other damaging conditions that beans can be susceptible to. Most types of beans are somewhat drought resistant, but check the surface of the soil frequently and water when the top layer has become dried out. <br/> <br/> Once established, beans generally will not require fertilizing and will generate their own nitrogen. However, if the leaves of young plants are pale this is an indication of nitrogen deficiency and starts can be fertilized with with fish emulsion or other natural nitrogen rich fertilizer.",
@@ -41,4 +59,38 @@ plantData = {
     "tomato": "Growing Guide <br/><br/> Tomatoes require a long growing season, and are best started indoors 6 weeks before the anticipated transplanting date(after the final frost of the spring).For best results, sow seeds ½ inch deep in a well-drained, soilless starting mix. Seeds require warm soil between roughly 65-90 degrees F. Warmer soils will promote faster germination. Keep soil moist, but not soggy while awaiting germination. Moderate watering slightly once seedlings break through the soil. Tomato plants prefer well-drained, fertile soil, high in organic matter. Fertile clays and loams produce the highest yields, but lighter soils that drain and warm quickly can produce earlier harvests. It can tolerate slightly acidic soils, and is most productive with pH 6.0 to 6.8. <br/><br/> Tomato is a heavy feeder and should be fertilized with an organic blend rich in phosphorus and potassium, and containing moderate nitrogen. <br/> </br> Tomatoes need at least 8 hours of direct sun daily, and will develop faster with increased exposure. If possible, grow on a slight slope with southern or southeastern exposure. Tomatoes are native to tropical regions, and have the greatest light needs of any standard garden vegetable. <br/><br/> Staked and pruned plants can grow to well over 6 feet tall in favorable growing seasons, can be trained to narrow spreads. If space is limiting, use smaller determinate varieties. <br/> <br/> Once the last frost has passed and temperatures do not drop below approximately 50 degrees F at night, you can begin to consider transplanting. Don't rush to transplant. Cold soil and air temperatures can stress plants. Wait at least a week or two after the last frost. When considering candidates for transplanting, look for sturdy, short, dark green plants. Avoid plants that are tall, leggy, or yellowish, or have started flowering. Transplants that are too mature often stall after transplanting while younger, smaller plants pass them by, producing earlier and more fruit.",
     "turnip": "Growing Guide <br/><br/> Prefers well- drained, fertile soil high in organic matter, pH 6.0 to 7.5.Can tolerate slightly alkaline soil.Needs plentiful, consistent moisture.Loosen soil deeply or grow in raised beds to encourage good root development.Will tolerate less - than - ideal conditions, but poor soil will slow growth and hurt quality and flavor. <br/><br/> MAINTAINING <br/> From early spring to late summer, sow seeds ¼ to ½ inch deep, 1 inch apart in rows 12 to 18 inches apart. Thin plants to 4- to 6-inch spacings. Plant every 2 weeks for continuous harvest.Quality and flavor are best if harvested when whether is cool. Use floating row cover to protect crop from early pests. To help reduce disease, do not plant turnips or other cole crops in the same location more than once every three or four years.",
     "zucchini": "Growing Guide <br/><br/> Prefers well- drained, fertile, loose soil, high in organic matter with pH between 5.8 and 6.8.Plentiful and consistent moisture is needed from the time plants emerge until fruits begin to fill out. <br/> <br/> Direct seed ½ to 1 inch deep into hills (which warm and drain earlier in the season) or rows. Sow 4 to 5 seeds per hill. Space hills 3 to 4 feet apart. When the plants are 2 to 3 inches tall, thin to 2 to 3 plants per hill by snipping off unwanted plants without disturbing the roots of the remaining ones. In rows, sow seeds 4 inches apart in rows 4 to 5 feet apart. Snip off plants to thin to one plant every 12 to 24 inches. <br/> <br/> For extra early crops, start inside in 2- to 3-inch pots or cells 3 to 4 weeks before transplanting outside. Sow 3 or 4 seeds per pot and thin to one or two plants by snipping off the weaker plants to avoid damaging the roots of those that remain. Harden off by cutting back on water and reducing temperature before transplanting. Plant transplants out in the garden about 1 to 2 feet apart after all danger of frost has passed."
+}
+
+function plantActive(name, object) {
+    let nameGuide = object[name];
+    console.log('got name guide')
+    console.log(nameGuide)
+
+ 
+}
+
+function onPlantClick() {
+    let name = event.currentTarget.getAttribute('data-plant');
+    console.log(`clicked on ${name}`)
+    
+    let nameGuide = plantData[name]
+    console.log('got name guide')
+    console.log(nameGuide)
+
+    let artichokeGuide = document.querySelector('.artichoke-guide');
+    let artichokeDetail = document.querySelector('.artichoke-detail');
+    console.log('got artichoke guide')
+    console.log(artichokeGuide)
+    console.log('got artichoke detail')
+    console.log(artichokeDetail)
+
+    artichokeDetail.innerHTML = nameGuide
+
+    let artichokeClose = document.querySelector('.close');
+
+    artichokeClose.addEventListener('click', function () {
+        artichokeGuide.classList.remove('active');
+    })
+
+    artichokeGuide.classList.add('active');
 }

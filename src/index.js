@@ -216,17 +216,11 @@ function filterRow(array) {
     myChart.update();
 }
 
-var artichokeBtn = document.querySelector('.artichoke-button');
-var artichokeGuide = document.querySelector('.artichoke-guide');
-var artichokeClose = document.querySelector('.artichoke-close');
 
-artichokeBtn.addEventListener('click', function(){
-    artichokeGuide.classList.add('artichoke-active');
-});
 
-artichokeClose.addEventListener('click', function(){
-    artichokeGuide.classList.remove('artichoke-active');
-})
+
+
+
 
 
 

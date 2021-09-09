@@ -84,13 +84,13 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     
     <div class="plants">
-        <button class="artichoke-button" id="plants-btn">
+        <button class="artichoke-button" id="plants-btn" onClick="onPlantClick(event)" data-plant="artichoke">
         <div class="vegetables">
             <img src="images/artichoke.jpeg">
             <div class="title">Artichoke</div>
         </div>
         </button>
-        <button class="arugula-button" id="plants-btn">
+        <button class="arugula-button" id="plants-btn" onclick="onPlantClick(event)" data-plant="arugula">
         <div class="vegetables">
             <img src="images/arugula.png">
             <div class="title">Arugula</div>
@@ -352,86 +352,19 @@
             inches deep in the soil. Irrigate thoroughly
             before planting.</p>
             
-            <span class="artichoke-close">X</span>
+            <span class="close">X</span>
         </div>
 
     </div>
 
-    <div class="arugula-guide">
-        <div class="arugula-detail">
-            <h2>Growing Guide</h2>
-            <p> Prefers rich humusy soil with pH of 6 to 6.8, but will tolerate wide variety of conditions. Evenly moist soil will
-                help slow bolting.</p>
-            <p>Growth is low and compact until heat causes plant to bolt.</p>
-            <p>Forms a rosette of deeply lobed leaves. Plants become erect when heat induces bolting.</p>
-            <p>Flowers are edible</p>
-            <h2>MAINTAINING</h2>
-            <p>Seeds germinate quickly even in cold soil. Plant as soon as soil can be worked in spring.</p>
-            <p>Avoid planting after other cabbage family crops.</p>
-            <p>Plant ¼ inch deep and 1 inch apart in rows, or broadcast alone or mixed with other greens. Gradually thin to 6-inch
-                spacings using thinnings for salads.</p>
-            <p>Make new plantings every 2 to 3 weeks for a continuous supply until about a month before your average first frost
-                date.</p>
-            <span class="arugula-close">X</span>
-        </div>
     
-    </div>
 
-    <div class="asparagus-guide">
-        <div class="asparagus-detail">
-            <h2>Site selection and preparation</h2>
-            <p> 
-            Choose a site with good drainage and full sun. The tall ferns of asparagus may shade other plants, so plan accordingly.
-            Prepare the bed as early as possible and enrich it with additions of manure, compost, bone or blood meal, leaf mold,
-            wood ashes, or a combination of several of these. Gardeners with heavy soils should consider double-digging their soil.
-            </p>
-            <p>
-            To double-dig, remove the top foot of soil from the planting area. Then, with a spading fork or spade, break up the
-            subsoil by pushing the tool into the next 10 to 12 inches of soil and rocking it back and forth. Do this every 6 inches
-            or so.
-            </p> 
-            <p>
-            Double digging is ideal for the trench method of planting asparagus since a 12-inch-deep trench is usually dug
-            anyway. The extra work of breaking up the subsoil will be well worth the effort, especially in heavy soil. The trench is
-            dug 12 to 18 inches wide, with 2 to 3 feet between trenches. The same method may be used in wide-bed plantings, with
-            plants staggered in three rows. Mix the topsoil that has been removed with organic matter. Spread about 2 inches of the
-            mixture in the bottom of the trench or bed.
-            </p>
-            <span class="asparagus-close">X</span>
-        </div>
     
-    </div>
 
-    <div class="basil-guide">
-        <div class="basil-detail">
-            <h2>Growing Guide</h2>
-            <p> Needs 6 at least 6 hours of sun per day.
-            <br>
-                Prefers steady moisture and warm soil.
-            </p>
-            <h2>Maintaining</h2>
-            <p>
-                Plant basil in fertile soil in a spot that gets direct sun for at least 6 hours per day. Pinch the tip from the center
-                shoot of basil after it has grown for 6 weeks to force side growth and prevent early flowering. If flower stalks
-                develop, simply snip them off.
-            </p>
-            <p>
-                Basil needs a steady supply of moisture and warm soil temperatures to produce well, so you have to play a balancing act
-                with mulch. In cool areas, delay mulching until the soil temperature has reached the mid-60s. Where summer really heats
-                up and soil loses moisture quickly, you can add mulch sooner.
-            </p>
-            <p>
-                Basil has few pests, but occasionally generalist pests such as aphids, flea beetles, and Japanese beetles will feast upon
-                it. Rinse off aphids with a garden hose. To prevent beetles from munching, cover the crop with fabric row cover. If
-                slugs are a problem on new transplants, try a barrier of copper flashing.
-            </p>
-            
-            <span class="basil-close">X</span>
-        </div>
-    
-    </div>
+   
 
     <script src="src/index.js"></script>
+    <script src="src/data.js"></script>
 </body>
 
 </html>
