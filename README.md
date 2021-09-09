@@ -36,6 +36,7 @@ Wireframes
 
 
 Technologies, Libraries, APIs
+I will use chart.js as my library to create the graph. 
 
 This project will be implemented with the following technologies:
 
