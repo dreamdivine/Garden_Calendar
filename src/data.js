@@ -19,7 +19,7 @@ plantData = {
      <p>Plant ¼ inch deep and 1 inch apart in rows, or broadcast alone or mixed with other greens. Gradually thin to 6-inch spacings using thinnings for salads.<br/> Make new plantings every 2 to 3 weeks for a continuous supply until about a month before your average first frost date.</p>
     <span class="close">X</span>`,
     "asparagus": `<p>Asparagus is a hardy perennial suited to USDA zones 2 to 8 and is native to western Europe. </p> 
-    This perennial can remain viable for 10 to 20 years, so choose your garden site carefully. 
+    <p>This perennial can remain viable for 10 to 20 years, so choose your garden site carefully. 
     Asparagus needs a soil pH of between 7.0 and 7.2 in fertile, well-draining soil. </p> 
     <p> It’s recommended that you start asparagus seeds indoors or in a greenhouse in mid-February to May under bright lighting. Soil temperatures for seed germination should be between 70 and 85 degrees F. (21-29 C.). Soak the seeds for a couple of hours, then plant each seed ½ inch (1 cm.) deep in sterile soil, in individual 2 inch (5 cm.) pots. They should sprout anywhere between two and eight weeks from planting asparagus seeds.</p>
     <span class= "close">X</span>`,
@@ -76,21 +76,15 @@ plantData = {
      <span class="close">X</span>`,
     "broccoli":`<h2>"Growing Guide</h2>
     
-     <p>Can tolerate light shade but will slow maturity.</p>
-     
-      <p>Prefers well-drained, fertile soil high in organic matter, pH 6.0 to 7.5. Can tolerate slightly alkaline soil. Needs plentiful, consistent moisture.</p>
-       
-        <p>Broccoli prefers cool temperatures. In many regions it can be grown as both a spring and fall crop. Choose varieties touted for their abundant side shoots to extend the harvest; once the central head is harvested, these side shoots will continue to produce small heads for weeks.</p>
+     <p>Can tolerate light shade but will slow maturity.
+      Prefers well-drained, fertile soil high in organic matter, pH 6.0 to 7.5. Can tolerate slightly alkaline soil. Needs plentiful, consistent moisture.
+        Broccoli prefers cool temperatures. In many regions it can be grown as both a spring and fall crop.</p>
           <p>PLANTING INSTRUCTIONS</p>
-           
            <p>Select a site with full sun and well-drained soil. Prepare the garden bed by using a garden fork or tiller to loosen the soil to a depth of 12 to 15 inches, then mix in a 2 to 4-inch layer of compost. </p>
         
-            <p> Start spring transplants indoors five to seven weeks before the last spring frost date, or buy nursery transplants three weeks before the last spring frost date. Where the weather is warm, select a variety that is bolt resistant. Set out transplants three to four weeks before the last spring frost. Space plants 18 inches apart. Protect transplants from hard frosts with newspapers, plastic cones, paper bags, or baskets. Provide a windbreak to reduce transplant shock and moisture loss. For fall crops, direct seed the broccoli in the garden 85 to 100 days before the average first fall frost date.</p> 
-              <p>Prefers well-drained, fertile soil high in organic matter, pH 6.0 to 7.5. Can tolerate slightly alkaline soil. Needs plentiful, consistent moisture.</p> 
-               <p>MAINTAINING</p>
-               <p>Sow seeds indoors 6 to 8 weeks before average last spring frost. Keep soil warm (about 75 F), until germination. Then keep plants around 60 F. Provide direct sun so plants don’t get leggy. When plants are 4 to 6 weeks old, transplant into garden 12 to 20 inches apart.</p>
-                <p>Can be direct-seeded as soon as you can work the soil. Will germinate at soil temps as low as 40 F. Plant ½ to ¾ inch deep, about 3 inches apart. Thin to final spacings. </p> 
-                <p>Direct seed in midsummer for fall crop, or start transplants in late May and transplant in late June or early July. Use low nitrogen fertilizer at planting. Too much nitrogen fertilizer may cause hollow stems.</p>
+            <p> Start spring transplants indoors five to seven weeks before the last spring frost date, or buy nursery transplants three weeks before the last spring frost date. Set out transplants three to four weeks before the last spring frost. Protect transplants from hard frosts with newspapers, plastic cones, paper bags, or baskets. Provide a windbreak to reduce transplant shock and moisture loss. For fall crops, direct seed the broccoli in the garden 85 to 100 days before the average first fall frost date.</p> 
+              <p>Prefers well-drained, fertile soil high in organic matter, pH 6.0 to 7.5. Can tolerate slightly alkaline soil. Needs plentiful, consistent moisture. 
+               Use low nitrogen fertilizer at planting. Too much nitrogen fertilizer may cause hollow stems.</p>
                 <span class="close">X</span>`,
     "brussel": `<h2>Growing Guide </h2>
 
@@ -177,7 +171,7 @@ plantData = {
      <h2> MAINTAINING </h2>
     
      <p> Corn requires rich, fertile soil. Add compost or well rotted manure in fall. Make first planting after last frost date. Soil should be at least 65 F for fast germination. To speed increase in soil temperature, consider covering soil with black plastic for several weeks before planting. Thin to 8 - to 12 - inch spacings when plants are 3 to 4 inches tall. Increase seeding rates to ensure a good stand if soils are cold or you are using seed that has not been treated with fungicide. Untreated seed has natural color. Treated seed is dyed. Two weeks later, plant another block of an early hybrid, plus blocks of mid - and late - season hybrids. Continue making plantings until late June or early July, depending on the length of your growing season.</p>
-       Corn is a heavy feeder - particularly of nitrogen - and may require several sidedressings of fertilizer for best yields.Look for signs of nutrient deficiency.Purple - tinged leaves are a sign of phosphorus deficiency.Pale green leaves are a sign of nitrogen deficiency. For miniature or baby corn, plant seeds 2 to 4 inches apart and harvest as silks emerge from the ear, or harvest secondary ears from normally spaced plantings, allowing the main ear to fully mature. Also try hybrids specifically bred for early baby corn harvest.</p>
+       <p>Corn is a heavy feeder - particularly of nitrogen - and may require several sidedressings of fertilizer for best yields.Look for signs of nutrient deficiency.Purple - tinged leaves are a sign of phosphorus deficiency.Pale green leaves are a sign of nitrogen deficiency. For miniature or baby corn, plant seeds 2 to 4 inches apart and harvest as silks emerge from the ear, or harvest secondary ears from normally spaced plantings, allowing the main ear to fully mature. Also try hybrids specifically bred for early baby corn harvest.</p>
      <span class="close">X</span>`,
     "cucumber": `<h2>Growing Guide</h2> 
    
@@ -263,8 +257,8 @@ plantData = {
          
          <h2> MAINTAININ </h2>
           
-          <p>The key to maintaining okra production continuously throughout the summer is to harvest regularly.Only 3 to 4 days are required from the time the okra flower opens until the pod reaches harvest maturity.For this reason, okra must be harvested at least every other day during the growing season.Failure to remove mature pods from the okra plant will cause reduced yield and quality of pods which set on the plant later.The pods are either cut or broken from the plant and should be refrigerated or used as soon as possible after harvest.
-           <span class= "close"> X</span>`,
+          <p>The key to maintaining okra production continuously throughout the summer is to harvest regularly.Only 3 to 4 days are required from the time the okra flower opens until the pod reaches harvest maturity.For this reason, okra must be harvested at least every other day during the growing season.Failure to remove mature pods from the okra plant will cause reduced yield and quality of pods which set on the plant later.The pods are either cut or broken from the plant and should be refrigerated or used as soon as possible after harvest.</p>
+           <span class= "close">X</span>`,
     "onion": `<h2>Growing Guide</h2> 
         
         <p>Well- drained, rich soil, high in organic matter, neutral pH.Optimum pH is 6.2 to 6.8.Requires plentiful, even moisture for good yields. Biennial grown as annual. Easy if you have rich well - drained soil and good weed control. Usually does not flower unless grown from sets that are too large(more than ½ to ¾ inches in diameter), or young plants(direct seeded or transplanted) are stressed by abnormally cold weather.</p>
@@ -273,27 +267,27 @@ plantData = {
           
           <p> Can be direct - seeded, grown from transplants started inside, or from sets-- small bulbs about ½-inch in diameter grown from seed the previous season. Onions are good for intercropping with other garden plants, especially early - maturing spring greens. Direct - seeding in the garden may not allow enough time for long - season varieties to mature, but is fine for shorter - season varieties or for scallions. Direct - seed in spring when the soil reaches 50 F. Start transplants inside about 8 to 10 weeks before last frost date.Plant 4 or 5 seeds in each cell, or seed in flats ¼ inch deep and ½ inch apart.If tops grow too tall and begin to droop, trim back to about 3 inches tall with scissors.After hardening off, transplant 2 to 4 weeks before last frost date.Space 4 inches apart for large bulbs, 2 inches apart for smaller bulbs, or 1 inch apart for scallions. From sets: Choose bulbs no larger than ¾ inch in diameter.</p>
            <span class= "close">X</span>`,
-    "parsley": `Growing Guide 
+    "parsley": `<h2>Growing Guide </h2> 
     
-     <p>Likes full sun or part shade.</p>
+     <p>Likes full sun or part shade. Prefers rich, moist soil. Slow-sprouting seed.</p>
      
       <h2> MAINTAINING </h2>
        
-       <p> Although parsley is a biennial, it’s best to start new plants each year because the leaf flavor is not as good in the second season.To hasten germination of this slow - sprouting seed, pour warm water over seeds and let them stand overnight before planting.Sow seed in individual pots indoors or plant them outside in the garden.Parsley is very hardy: You can direct- sow seeds 2 to 3 weeks before the last spring frost. (If you sow seeds directly in the garden, keep the area as weed - free as possible so the tiny, slow - growing seedlings don’t have to compete with a jungle when they sprout. Plants do well in sun or partial shade, and prefer a rich, moist soil.Thin plants to stand 6 to 10 inches apart, and provide an even supply of water all summer.In some regions, caterpillars such as cabbage looper and black swallowtail larvae may take up residence and nibble on plants.
+       <p> Although parsley is a biennial, it’s best to start new plants each year because the leaf flavor is not as good in the second season.To hasten germination of this slow - sprouting seed, pour warm water over seeds and let them stand overnight before planting.Sow seed in individual pots indoors or plant them outside in the garden.Parsley is very hardy: You can direct- sow seeds 2 to 3 weeks before the last spring frost. (If you sow seeds directly in the garden, keep the area as weed - free as possible so the tiny, slow - growing seedlings don’t have to compete with a jungle when they sprout. Plants do well in sun or partial shade, and prefer a rich, moist soil.Thin plants to stand 6 to 10 inches apart, and provide an even supply of water all summer.In some regions, caterpillars such as cabbage looper and black swallowtail larvae may take up residence and nibble on plants.</p>
          <span class= "close">X</span>`,
     "peas": `<h2>Growing Guide</h2> 
     
      <p>Yields best in full sun. Prefers well- drained soil, average fertility, high in organic matter with pH 6.0 to 7.0.Widely adapted, but prefers cool, damp weather. Good soil structure is important.Avoid compacting soil by working it when it’s still too wet. </p>
      <h2> MAINTAINING </h2>
      
-      <p> Sow seed in spring as soon as you can work the soil - as early as late March or early April depending on how quickly the soil warms and dries.Peas planted in cold soil(40 F) are slow to germinate.Later plantings made when the soil is warmer 60 F or more often catch up quickly with earlier plantings.Use raised beds if your soil is slow to drain. Make additional plantings through early - to mid - May, or plant varieties with different maturity dates to increase the harvest period. Plant seeds 1 to 2 inches deep, 1 to 4 inches apart in rows 18 inches apart.Or sow about 1 inch apart in a 3 - inch - wide band(about 25 seeds per foot).Shallow planting is best when soils are cool and wet.Plant deeper if soil is dry.A quick way to seed is to make a furrow or trench with a hoe, place seed in the furrow, cover and firm.Do not thin. Erect trellis for tall - growing, vining types at planting using chicken wire, brush or other suitable trellis material.If trellising, increase row spacing to 4 to 6 feet. Keep soil moist, but avoid heavy watering during flowering, which can interfere with pollination. Sow fall crops about 8 to 10 weeks before first frost date. Fall crops can be disappointing if hot weather persists. Do not use high- nitrogen fertilizers. Too much nitrogen will result in lush foliage but poor flowering and fruiting.
-       <span class= "close">X</span>`,
+      <p> Sow seed in spring as soon as you can work the soil - as early as late March or early April depending on how quickly the soil warms and dries.Peas planted in cold soil(40 F) are slow to germinate.Later plantings made when the soil is warmer 60 F or more often catch up quickly with earlier plantings.Use raised beds if your soil is slow to drain. Make additional plantings through early - to mid - May, or plant varieties with different maturity dates to increase the harvest period. Plant seeds 1 to 2 inches deep, 1 to 4 inches apart in rows 18 inches apart.Or sow about 1 inch apart in a 3 - inch - wide band(about 25 seeds per foot).Shallow planting is best when soils are cool and wet.Plant deeper if soil is dry.A quick way to seed is to make a furrow or trench with a hoe, place seed in the furrow, cover and firm.Do not thin. Erect trellis for tall - growing, vining types at planting using chicken wire, brush or other suitable trellis material.If trellising, increase row spacing to 4 to 6 feet. Keep soil moist, but avoid heavy watering during flowering, which can interfere with pollination. Sow fall crops about 8 to 10 weeks before first frost date. Fall crops can be disappointing if hot weather persists. Do not use high- nitrogen fertilizers. Too much nitrogen will result in lush foliage but poor flowering and fruiting.</p>
+       <span class="close">X</span>`,
     "peppers": `<h2>Growing Guide</h2> 
    
      <p>Pepper should be started indoor approximately 8 weeks prior to the last frost of the spring. Sow ¼ inch deep in a well-drained starting medium. Seeds require lots of warm to germinate; medium should be between 80-85 degrees F. Using a heat mat, available at home and garden store and elsewhere, can help to ensure ideal conditions. Additionally, young starts will fare much better with additional light. Place in a window or sunny location that receives lots of southern or southwestern sun exposure. Consider supplementing with artificial lighting if possible. Set plants out 2 to 3 weeks after average last frost when the soil has warmed and the weather has settled.Peppers can be temperamental when it comes to setting fruit if temperatures are too hot or too cool. Nighttime temperatures below 60 F or above 75 F can reduce fruit set. Plant them 12 to 24 inches apart, in rows 24 to 36 inches apart, or spaced about 14 to 16 inches apart in raised beds. Do not rush to transplant your starts outdoors. Peppers will do best with soil that is fertile, lightweight, slightly acidic(pH5.5- 7.0) and well - drained. Wait until soil temperatures exceed 50 degrees F at all times before placing into the ground. </p>
       
       <h2> MAINTAINING </h2>
-      <p> Peppers need a steady supply of water for best performance.If fertilizing, be careful not to overdo it on nitrogen as this can deter fruit growth.Organic fertilizers and soil should be rich in phosphorus, potassium and calcium. Mulching with black plastic or similar material is a good way to maintain heat and soil moisture.
+      <p> Peppers need a steady supply of water for best performance.If fertilizing, be careful not to overdo it on nitrogen as this can deter fruit growth.Organic fertilizers and soil should be rich in phosphorus, potassium and calcium. Mulching with black plastic or similar material is a good way to maintain heat and soil moisture.</p>
        <span class= "close"> X</span>`,
     "potato": `Growing Guide 
    
