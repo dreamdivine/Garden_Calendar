@@ -150,12 +150,12 @@ img {
 }
 
 #flowers {
-  background-image: url(../images/flowers.jpeg);
+  background-image: url(../images/bkg-img-spring.jpeg);
   color: black;
 }
 
 #ocean {
-  background-image: url(../images/ocean.jpeg);
+  background-image: url(../images/summer_drink.jpeg);
   color: black;
 }
 
@@ -291,4 +291,9 @@ h2, p {
   right: 10px;
   font-weight: bold;
   cursor: pointer;
+}
+
+h3, h4 {
+  text-align: center;
+  font-weight: bold;
 }
