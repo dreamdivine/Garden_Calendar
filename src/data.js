@@ -115,28 +115,13 @@ plantData = {
                  
                  <p>Thinning is critical to reduce competition from neighboring plants. Thin to 1- to 4-inch spacings (depending on size of root desired) before plants are 2 inches tall. Cutting rather than pulling reduces disturbance of the remaining plants. Use seed tape or pelleted seed for more even spacings and less thinning. Or mix seed in roughly equal proportions with sand, fine vermiculite, or dried coffee grounds. Mulch to keep soil cool, conserve moisture and to keep exposed shoulders from turning green and bitter.</p>
                  <span class="close">X</span>`,
-    "cauliflower": `<h2>Growing Guide</h2> 
-                
-                 <p> Can tolerate light shade but will slow maturity.</p>
-              
-                 <p> Prefers well-drained, fertile soil high in organic matter, pH 6.0 to 7.5. Can tolerate slightly alkaline soil. Needs plentiful, consistent moisture.</p>
-                 
-                  <p> Broccoli prefers cool temperatures. In many regions it can be grown as both a spring and fall crop. Choose varieties touted for their abundant side shoots to extend the harvest; once the central head is harvested, these side shoots will continue to produce small heads for weeks.</p>
-                   
-                   <h2> PLANTING INSTRUCTIONS</h2>
-                  
-                   <p> Select a site with full sun and well-drained soil. Prepare the garden bed by using a garden fork or tiller to loosen the soil to a depth of 12 to 15 inches, then mix in a 2 to 4-inch layer of compost.</p>
-                   
-                    <p> Start spring transplants indoors five to seven weeks before the last spring frost date, or buy nursery transplants three weeks before the last spring frost date. Where the weather is warm, select a variety that is bolt resistant. Set out transplants three to four weeks before the last spring frost. Space plants 18 inches apart. Protect transplants from hard frosts with newspapers, plastic cones, paper bags, or baskets. Provide a windbreak to reduce transplant shock and moisture loss.</p>
+    "cauliflower": `<h2> PLANTING INSTRUCTIONS</h2>
+                    <p> Select a site with full sun and well-drained soil. Prepare the garden bed by using a garden fork or tiller to loosen the soil to a depth of 12 to 15 inches, then mix in a 2 to 4-inch layer of compost. Start spring transplants indoors five to seven weeks before the last spring frost date, or buy nursery transplants three weeks before the last spring frost date. Where the weather is warm, select a variety that is bolt resistant. Set out transplants three to four weeks before the last spring frost. Space plants 18 inches apart. Protect transplants from hard frosts with newspapers, plastic cones, paper bags, or baskets. Provide a windbreak to reduce transplant shock and moisture loss.</p>
                     <p> For fall crops, direct seed the broccoli in the garden 85 to 100 days before the average first fall frost date.</p>
                     
-                      <p> Prefers well-drained, fertile soil high in organic matter, pH 6.0 to 7.5. Can tolerate slightly alkaline soil. Needs plentiful, consistent moisture. </p>
-                      
                        <h2> MAINTAINING</h2>
                        
                        <p>Sow seeds indoors 6 to 8 weeks before average last spring frost. Keep soil warm (about 75 F), until germination. Then keep plants around 60 F. Provide direct sun so plants don’t get leggy. When plants are 4 to 6 weeks old, transplant into garden 12 to 20 inches apart.</p>
-                        
-                        <p>Can be direct-seeded as soon as you can work the soil. Will germinate at soil temps as low as 40 F. Plant ½ to ¾ inch deep, about 3 inches apart. Thin to final spacings. </p>
                         
                         <p> Direct seed in midsummer for fall crop, or start transplants in late May and transplant in late June or early July. Use low nitrogen fertilizer at planting. Too much nitrogen fertilizer may cause hollow stems.</p>
                         <span class="close">X</span>`,
@@ -249,7 +234,7 @@ plantData = {
         
         <p>Benefits from some shading during warm weather.</p>
         
-        <p>Prefers well- drained, fertile soil high in organic matter, pH 6.0 to 7.5.Can tolerate slightly alkaline soil.Needs plentiful, consistent moisture. Some varieties have contrasting white or purples stems and veins, or have crinkled or savoyed leaves. <br/><br/> MAINTAINING <br/> From early spring to late summer, sow seeds ¼ to ½ inch deep, 1 inch apart in rows 6 to 8 inches apart.Thin to 6 - inch spacings for smaller varieties, or up to 18 inches for large ones. <br/> Plant every 2 weeks for continuous harvest.Some plantings may bolt quickly in response to increasing temperatures and day length.High temperatures and lack of moisture increase peppery taste. Use floating row covers to help protect from early insect infestations. To help reduce disease, do not plant mustards or other cole crops in the same location more than once every three or four years.
+        <p>Prefers well- drained, fertile soil high in organic matter, pH 6.0 to 7.5.Can tolerate slightly alkaline soil.Needs plentiful, consistent moisture. Some varieties have contrasting white or purples stems and veins, or have crinkled or savoyed leaves. <br/><br/> MAINTAINING <br/> From early spring to late summer, sow seeds ¼ to ½ inch deep, 1 inch apart in rows 6 to 8 inches apart.Thin to 6 - inch spacings for smaller varieties, or up to 18 inches for large ones. <br/> Plant every 2 weeks for continuous harvest.Some plantings may bolt quickly in response to increasing temperatures and day length.High temperatures and lack of moisture increase peppery taste. Use floating row covers to help protect from early insect infestations. To help reduce disease, do not plant mustards or other cole crops in the same location more than once every three or four years.</p>
          <span class="close">X</span>`,
     "okra": `<h2>Growing Guide</h2> 
        
