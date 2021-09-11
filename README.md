@@ -25,7 +25,7 @@ In Garden_Calendar:
 
 Wireframes
 
-<img src="images/wireframe.png">
+<img src="images/wireframe1.png">
 
 
 . Nav links include links to this project's Github repo, and my LinkedIn.
