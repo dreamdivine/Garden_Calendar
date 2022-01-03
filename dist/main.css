@@ -262,8 +262,15 @@ button {
 .plant-detail {
   position: relative;
   font-family: "Montserrat", sans-serif;
-  width: 50%;
-  height: 60%;
+  width: 35vw;
+  font-size: 0.8vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  padding-left: 2vw;
+  padding-right: 18vw;
+  line-height: 1.25vw;
+  color: black;
+  font-weight: 500;
 }
 .plant-detail::before {
   content: "";
@@ -272,13 +279,10 @@ button {
   right: 0px;
   bottom: 0px;
   left: 0px;
-  background-image: url(../images/paper1.jpeg);
+  background-image: url(../images/leaves-background.jpeg);
   background-size: cover;
-  background-position: top center;
-  opacity: 0.68;
-  top: -45px;
-  left: -40px;
-  right: -40px;
+  background-position: left center;
+  opacity: 2;
 }
 
 h2, p {
