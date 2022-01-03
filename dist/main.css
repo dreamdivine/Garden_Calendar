@@ -19,6 +19,38 @@ body {
   top: 20px;
 }
 
+@media (max-width: 900px){
+.plant-detail {
+  position: relative;
+  top: -40vw;
+  font-family: "Montserrat", sans-serif;
+  width: 60vw;
+  height: 30vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  padding-left: 2vw;
+  padding-right: 18vw;
+  line-height: 1.25vw;
+  font-weight: 500;
+  font-size: 10vw;
+  border: 1px solid black;
+}
+  .plant-detail::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-image: url(../images/leaves-background.jpeg);
+  background-size: cover;
+  background-position: left center;
+  opacity: 2;
+}
+
+ 
+}
+
 .social-menu ul li {
   list-style: none;
   margin: 0 15px;
@@ -48,8 +80,8 @@ body {
 
 .season .box {
   position: relative;
-  width: 140px;
-  height: 140px;
+  width: 8vw;
+  height: 8vw;
   float: left;
   margin: 15px;
   box-sizing: border-box;
@@ -271,6 +303,8 @@ button {
   line-height: 1.25vw;
   color: black;
   font-weight: 500;
+  right: 9vw;
+  bottom: 4vw;
 }
 .plant-detail::before {
   content: "";
