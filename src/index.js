@@ -112,14 +112,16 @@ let myChart = new Chart(ctx, {
         },
         options: {
             maintainAspectRatio: false,
-            responsive: true,
             indexAxis: 'y',
             scales: {
                 y: {
-                    ticks:{
-                        
-                    },
-                    beginAtZero: true
+                    beginAtZero: true,
+                    ticks: {
+                        font: {
+                            size: 11
+                        },
+                        autoSkip: false
+                    }
                 }
             }
         }
