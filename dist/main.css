@@ -422,10 +422,8 @@ button {
   .social-menu ul li {
     list-style: none;
     height: 4vw;
-    margin-bottom: 1.5vw;
     position: relative;
-    bottom: 1vw;
-    left: 5vw;
+    left: 4.5vw;
   }
 
   .social-menu ul li .fa {
@@ -433,7 +431,7 @@ button {
     color: white;
     height: 4vw;
     position: relative;
-    bottom: 2vw;
+    bottom: 1.6vw;
   }
 
   #angelList {
