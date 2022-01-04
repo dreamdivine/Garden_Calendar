@@ -21,10 +21,16 @@ body {
 
 .social-menu ul li {
   list-style: none;
-  margin: 0 15px;
+  margin: 5px;
 }
 
 .social-menu ul li .fa {
+  font-size: 1.5vw;
+  line-height: 40px;
+  color: white;
+}
+
+#angelList {
   font-size: 30px;
   line-height: 40px;
   color: white;
@@ -224,7 +230,6 @@ img {
   overflow: hidden;
   margin-top: 100px;
   background-image: url(../images/graph1.jpeg);
-  border: 1px solid pink;
 }
 
 button {
@@ -316,11 +321,9 @@ button {
 
   .season .box {
     position: relative;
-    width: 15vw;
-    height: 15vw;
+    width: 30vw;
+    height: 10vw;
     float: left;
-    margin: 15px;
-    box-sizing: border-box;
     overflow: hidden;
     border-radius: 10px;
     background-repeat: no-repeat;
@@ -347,20 +350,21 @@ button {
     position: relative;
     width: 30vw;
     display: flex;
-    top: 7vw;
+    top: 9vh;
     flex-wrap: wrap;
+    border: 1px solid red;
   }
 
   .chartBox {
-    width: 40vw;
-    height: 80vw;
-    padding: 20px;
+    width: 90vw;
+    height: 65vh;
     border-radius: 20px;
     background: white;
     overflow: hidden;
-    margin-top: 100px;
     background-image: url(../images/graph1.jpeg);
-    border: 1px solid pink;
+    position: relative;
+    bottom: 12vw;
+    padding: 2px;
   }
 
   #plants-btn {
@@ -375,7 +379,57 @@ button {
     font-weight: bold;
     cursor: pointer;
     width: 2vw;
-    font-size: 80px;
+    font-size: 2vw;
+  }
+
+  .main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .season {
+    position: relative;
+    top: 1.5vw;
+    left: 2vw;
+    width: 95vw;
+    height: 12vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  button {
+    border: none;
+    border: 1px solid black;
+    color: black;
+    font-weight: 500;
+    width: 8vw;
+    background-color: gray;
+    font-size: 2vw;
+  }
+
+  #myChart {
+    position: relative;
+    bottom: 2vw;
+  }
+
+  .social-menu ul li {
+    list-style: none;
+    height: 4vw;
+    margin-bottom: 1.5vw;
+  }
+
+  .social-menu ul li .fa {
+    font-size: 3.8vw;
+    color: white;
+    height: 4vw;
+  }
+
+  #angelList {
+    font-size: 4vw;
+    color: white;
   }
 }
 h2, p {

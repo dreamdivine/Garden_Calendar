@@ -105,7 +105,7 @@ let myChart = new Chart(ctx, {
                 data: allDepths,
                 backgroundColor: color,
                 borderColor: border,
-                borderWidth: 1
+                borderWidth: 2
             }]
         },
         options: {
