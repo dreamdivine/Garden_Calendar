@@ -38,12 +38,13 @@ body {
 
 .season {
   position: relative;
-  width: 13%;
+  width: 18vw;
   height: 60%;
   display: flex;
   align-items: center;
   flex-direction: column;
   top: 60px;
+  border: 1px solid red;
 }
 
 .season .box {
@@ -58,7 +59,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  border: 1px solid red;
 }
 
 img {
@@ -317,8 +317,8 @@ button {
 
 .season .box {
   position: relative;
-  width: 8vw;
-  height: 8vw;
+  width: 15vw;
+  height: 15vw;
   float: left;
   margin: 15px;
   box-sizing: border-box;
@@ -327,7 +327,6 @@ button {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  border: 1px solid red;
 }
 
 }
