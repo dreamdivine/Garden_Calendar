@@ -48,8 +48,8 @@ body {
 
 .season .box {
   position: relative;
-  width: 140px;
-  height: 140px;
+  width: 8vw;
+  height: 8vw;
   float: left;
   margin: 15px;
   box-sizing: border-box;
@@ -58,6 +58,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  border: 1px solid red;
 }
 
 img {
@@ -293,7 +294,6 @@ button {
   top: -40vw;
   font-family: "Montserrat", sans-serif;
   width: 60vw;
-  /* height: 40vw; */
   padding-top: 2vw;
   padding-bottom: 2vw;
   padding-left: 2vw;
@@ -313,6 +313,21 @@ button {
   background-image: url(../images/leaves-background.jpeg);
   background-size: cover;
   opacity: 2;
+}
+
+.season .box {
+  position: relative;
+  width: 8vw;
+  height: 8vw;
+  float: left;
+  margin: 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border: 1px solid red;
 }
 
 }
