@@ -293,14 +293,14 @@ button {
   top: -40vw;
   font-family: "Montserrat", sans-serif;
   width: 60vw;
-  height: 30vw;
+  /* height: 40vw; */
   padding-top: 2vw;
   padding-bottom: 2vw;
   padding-left: 2vw;
   padding-right: 18vw;
-  line-height: 1.25vw;
+  line-height: 2.5vw;
   font-weight: 500;
-  font-size: 10vw;
+  font-size: 1.8vw;
   border: 1px solid black;
 }
   .plant-detail::before {
@@ -312,7 +312,7 @@ button {
   left: 0px;
   background-image: url(../images/leaves-background.jpeg);
   background-size: cover;
-  background-position: left center;
+  /* background-position: left center; */
   opacity: 2;
 }
 
