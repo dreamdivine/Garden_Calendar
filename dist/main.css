@@ -423,12 +423,17 @@ button {
     list-style: none;
     height: 4vw;
     margin-bottom: 1.5vw;
+    position: relative;
+    bottom: 1vw;
+    left: 5vw;
   }
 
   .social-menu ul li .fa {
     font-size: 3.8vw;
     color: white;
     height: 4vw;
+    position: relative;
+    bottom: 2vw;
   }
 
   #angelList {

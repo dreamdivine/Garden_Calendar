@@ -106,8 +106,6 @@ let myChart = new Chart(ctx, {
                 backgroundColor: color,
                 borderColor: border,
                 borderWidth: 2,
-
-                
             }]
         },
         options: {
@@ -189,7 +187,6 @@ let myChart = new Chart(ctx, {
             myChart.data.datasets[0].backgroundColor = filterColors;
             myChart.data.datasets[0].borderColor = filterBorder;
             myChart.update();
-
         }
 
 function filterRow(array) {
