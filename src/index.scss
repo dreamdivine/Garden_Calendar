@@ -345,11 +345,10 @@ button {
 
 .plants{
   position: relative;
-  width: 30vw;
+  width: 90vw;
   display: flex;
-  top: 9vh;
   flex-wrap: wrap;
-  border: 1px solid red;
+  top: -10vw;
 
 }
 
@@ -397,7 +396,7 @@ button {
   flex-direction: row;
   align-items: center;
 }
- button{
+ .season button{
      border: none;
      border: 1px solid black;
      color: black;
