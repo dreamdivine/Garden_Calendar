@@ -1,315 +1,397 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family: 'Times New Roman', Times, serif;
-    width: 100%;
-    height: 100%;
-    background: black;
-    cursor: pointer;
-}
-.social-menu ul{
-    padding: 0;
-    margin: 0;
-    display: flex;
-    left: 30px;
-    top: 20px;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  width: 100%;
+  height: 100%;
+  background: black;
+  cursor: pointer;
 }
 
-.social-menu ul li{
-    list-style: none;
-    margin: 0 15px;
+.social-menu ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  left: 30px;
+  top: 20px;
 }
 
-.social-menu ul li .fa{
-    font-size: 30px;
-    line-height: 40px;
-    color: white;
+.social-menu ul li {
+  list-style: none;
+  margin: 0 15px;
 }
 
-.main{
-    position: relative;
-    display: flex;
-    justify-content: space-between;
+.social-menu ul li .fa {
+  font-size: 30px;
+  line-height: 40px;
+  color: white;
 }
 
-.season{
-    position: relative;
-    width: 13%;
-    height: 60%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    top: 60px;
-}
-.season .box{
-    position: relative;
-    width: 140px;
-    height: 140px;
-    float: left;
-    margin: 15px;
-    box-sizing: border-box;
-    overflow: hidden;
-    border-radius: 10px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+.main {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
 }
 
-img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.season {
+  position: relative;
+  width: 18vw;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  top: 60px;
 }
 
-.season .box .winter{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    margin: auto;
-    transition: all .5s linear;
+.season .box {
+  position: relative;
+  width: 8vw;
+  height: 8vw;
+  float: left;
+  margin: 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
-.season .box:hover .winter{
-    top: 25px;
-    left: 25px;
-    right: 50px;
-    width: 0px;
-    height: 0px;
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.season .box .spring{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    margin: auto;
-    transition: all .5s linear;
+.season .box .winter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  transition: all 0.5s linear;
 }
 
-.season .box:hover .spring{
-    top: 25px;
-    left: 25px;
-    right: 50px;
-    width: 0px;
-    height: 0px;
+.season .box:hover .winter {
+  top: 25px;
+  left: 25px;
+  right: 50px;
+  width: 0px;
+  height: 0px;
 }
 
-.season .box .summer{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    margin: auto;
-    transition: all .5s linear;
+.season .box .spring {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  transition: all 0.5s linear;
 }
 
-.season .box:hover .summer{
-    top: 25px;
-    left: 25px;
-    right: 50px;
-    width: 0px;
-    height: 0px;
+.season .box:hover .spring {
+  top: 25px;
+  left: 25px;
+  right: 50px;
+  width: 0px;
+  height: 0px;
 }
 
-.season .box .fall{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    margin: auto;
-    transition: all .5s linear;
+.season .box .summer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  transition: all 0.5s linear;
 }
 
-.season .box:hover .fall{
-    top: 25px;
-    left: 25px;
-    right: 50px;
-    width: 0px;
-    height: 0px;
-    background: rgba(0, 0 , 0, 0.3);
+.season .box:hover .summer {
+  top: 25px;
+  left: 25px;
+  right: 50px;
+  width: 0px;
+  height: 0px;
 }
 
-
-.season .box:hover .content{
-    top: 100px;
-     opacity: 1;
-     transition: transformY(0);
+.season .box .fall {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  transition: all 0.5s linear;
 }
 
-#snow{
-    background-image: url(../images/snowflakes.jpeg);
-    color: white;
+.season .box:hover .fall {
+  top: 25px;
+  left: 25px;
+  right: 50px;
+  width: 0px;
+  height: 0px;
+  background: rgba(0, 0, 0, 0.3);
 }
 
-#flowers{
-    background-image: url(../images/bkg-img-spring.jpeg);
-    color: black;
+.season .box:hover .content {
+  top: 100px;
+  opacity: 1;
+  transition: transformY(0);
 }
 
-#ocean{
-    background-image: url(../images/summer_drink.jpeg);
-    color: black;
+#snow {
+  background-image: url(../images/snowflakes.jpeg);
+  color: white;
 }
 
-#fallColor{
-    background-image: url(../images/fall-fruit.jpeg);
-    color: white;
+#flowers {
+  background-image: url(../images/bkg-img-spring.jpeg);
+  color: black;
+}
+
+#ocean {
+  background-image: url(../images/summer_drink.jpeg);
+  color: black;
+}
+
+#fallColor {
+  background-image: url(../images/fall-fruit.jpeg);
+  color: white;
+}
+
+.plants {
+  position: relative;
+  width: 30%;
+  height: 15%;
+  display: flex;
+  justify-content: space-evenly;
+  top: 60px;
+  flex-wrap: wrap;
+}
+
+.plants .vegetables {
+  position: relative;
+  width: 5vw;
+  height: 5vw;
+  float: left;
+  margin: 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  display: flex;
+  font-family: "Times New Roman", Times, serif;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.title:hover {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.chartBox {
+  width: 36vw;
+  height: 40vw;
+  padding: 20px;
+  border-radius: 20px;
+  background: white;
+  overflow: hidden;
+  margin-top: 100px;
+  background-image: url(../images/graph1.jpeg);
+  border: 1px solid pink;
+}
+
+button {
+  background-color: black;
+  padding: 0px;
+  margin: 0px;
+  color: white;
+}
+
+#plants-btn {
+  border: none;
+}
+
+.plant-guide {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s;
+}
+
+.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.plant-detail {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  width: 30vw;
+  font-size: 0.8vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  padding-left: 2vw;
+  padding-right: 18vw;
+  line-height: 1.25vw;
+  color: black;
+  font-weight: 500;
+  right: 8vw;
+
+}
+.plant-detail::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-image: url(../images/leaves-background.jpeg);
+  background-size: cover;
+  background-position: left center;
+  opacity: 2;
+}
+
+@media (max-width: 900px){
+.plant-detail {
+  position: relative;
+  top: -20vw;
+  font-family: "Montserrat", sans-serif;
+  width: 60vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  padding-left: 2vw;
+  padding-right: 18vw;
+  line-height: 2.5vw;
+  font-weight: 500;
+  font-size: 1.8vw;
+  border: 1px solid black;
+}
+  .plant-detail::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-image: url(../images/leaves-background.jpeg);
+  background-size: cover;
+  opacity: 2;
+}
+
+.season .box {
+  position: relative;
+  width: 15vw;
+  height: 15vw;
+  float: left;
+  margin: 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.plants .vegetables {
+  position: relative;
+  width: 12vw;
+  height: 12vw;
+  float: left;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  right: 1.8vw;
 }
 
 .plants{
-    position: relative;
-    width: 30%;
-    height: 15%;
-    display: flex;
-    justify-content: space-evenly;
-    top: 60px;
-    flex-wrap: wrap;
+  position: relative;
+  width: 30vw;
+  display: flex;
+  top: 7vw;
+  flex-wrap: wrap;
 }
 
-.plants .vegetables{
-    position: relative;
-    width: 90px;
-    height: 90px;
-    background: pink;
-    float: left;
-    margin: 15px;
-    box-sizing: border-box;
-    overflow: hidden;
-    border-radius: 10px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    min-width: 70px;
+.chartBox {
+  width: 40vw;
+  height: 80vw;
+  padding: 20px;
+  border-radius: 20px;
+  background: white;
+  overflow: hidden;
+  margin-top: 100px;
+  background-image: url(../images/graph1.jpeg);
+  border: 1px solid pink;
 }
 
-.title{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0 , 0, 0.3);
-    color: white;
-    font-weight: bold;
-    font-size: 17px;
-    display: flex;
-    font-family: 'Times New Roman', Times, serif;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transition: opacity 0.25s;
-    transform: translateY(20px);
-    transition: transform 0.25s;
+#plants-btn {
+  border: none;
+  width: 15vw;
 }
 
-.title:hover{
-    opacity: 1;
-    transform: translateY(0);
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 2vw;
+  font-size: 80px;
 }
 
- .chartBox {
-        width: 700px;
-        height: 750px;
-        padding: 20px;
-        border-radius: 20px;
-        background: white;
-        overflow: hidden;
-        margin-top: 100px;
-        background-image:url(../images/graph1.jpeg);
-      }
+}
 
-  button{
-      background-color: black;
-      padding: 0px;
-      margin: 0px;
-      color: white;
-  }
-
-  #plants-btn{
-      border: none;
-  }
-
-  .plant-guide{
-      position: fixed;
-      width: 100%;
-      height: 100vh;
-      top: 0;
-      left: 0;
-      background-color: rgba(0, 0, 0, 0.5);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      visibility: hidden;
-      opacity: 0;
-      transition: visibility 0s, opacity 0.5s;
-  }
-
-  .active{
-      visibility: visible;
-      opacity: 1;
-  }
-
-  .plant-detail{
-      position: relative;
-      font-family: 'Montserrat', sans-serif;
-      width: 50%;
-      height: 60%;
-      &::before {
-        content: '';
-        position: absolute;
-        top: 0px;
-        right: 0px;
-        bottom: 0px;
-        left: 0px;
-        background-image: url(../images/paper1.jpeg); 
-        background-size: cover; 
-        background-position: top center;
-        opacity: 0.68;
-        top: -45px;
-        left: -40px;
-        right: -40px;
-        
-      }
-  }
 h2, p {
-    position: relative;
-    text-align: center; 
-    font-weight: bold;
+  position: relative;
+  text-align: center;
+  font-weight: bold;
 }
 
-.close{
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-weight: bold;
-    cursor: pointer;
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1.5vw;
 }
 
-h3, h4{
-    text-align: center;
-    font-weight: bold;
-
+h3, h4 {
+  text-align: center;
+  font-weight: bold;
 }
-
-     
-
-     
-
-     
-
-     
-
-     
-      
-     
-
-       
-      
-      
-       
