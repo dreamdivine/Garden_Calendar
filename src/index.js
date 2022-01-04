@@ -105,15 +105,20 @@ let myChart = new Chart(ctx, {
                 data: allDepths,
                 backgroundColor: color,
                 borderColor: border,
-                borderWidth: 2
+                borderWidth: 2,
+
                 
             }]
         },
         options: {
             maintainAspectRatio: false,
+            responsive: true,
             indexAxis: 'y',
             scales: {
                 y: {
+                    ticks:{
+                        
+                    },
                     beginAtZero: true
                 }
             }

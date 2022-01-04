@@ -293,15 +293,16 @@ button {
 .plant-detail {
   position: relative;
   top: -20vw;
+  left: 0.08vw;
   font-family: "Montserrat", sans-serif;
-  width: 60vw;
+  width: 71.2vw;
   padding-top: 2vw;
   padding-bottom: 2vw;
   padding-left: 2vw;
   padding-right: 18vw;
   line-height: 2.5vw;
   font-weight: 500;
-  font-size: 1.8vw;
+  font-size: 2.2vw;
   border: 1px solid black;
 }
   .plant-detail::before {
@@ -313,6 +314,8 @@ button {
   left: 0px;
   background-image: url(../images/leaves-background.jpeg);
   background-size: cover;
+  background-position:  bottom 0px right 0px;
+  background-position:  50% 25%;
   opacity: 2;
 }
 
@@ -349,6 +352,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   top: -10vw;
+  left: 3vw;
 
 }
 
@@ -362,6 +366,7 @@ button {
   position: relative;
   bottom: 12vw;
   padding: 2px;
+  left: 4vw;
 }
 
 #plants-btn {
