@@ -221,8 +221,18 @@ function filterRow(array) {
     myChart.update();
 }
 
+let secondModalBtn = document.querySelector(".second-modal-btn");
+let secondModalBg = document.querySelector(".second-modal-bg");
+let secondModalClose = document.querySelector(".second-modal-close");
 
+secondModalBtn.addEventListener('click', function(){
+    secondModalBg.classList.add('second-bg-active')
+})
 
+secondModalClose.addEventListener('click', function(){
+    secondModalBg.classList.remove("second-bg-active");
+
+})
 
 
 
