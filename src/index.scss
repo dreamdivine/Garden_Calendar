@@ -546,7 +546,7 @@ h3{
 
 .second-modal-btn{
   position: relative;
-  bottom: 330vw;
+  bottom: 331vw;
   left: 82vw;
   border: none;
   border: 1px solid gray;
@@ -560,16 +560,16 @@ h3{
 
 .second-modal {
   background-image: url(../images/plains.jpeg);
-  width: 30%;
-  height: 30%;
+  width: 80%;
+  height: 45%;
   background-position: 50% 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
-  right: 5vw;
-  font-size: 0.8vw;
+  right: 1vw;
+  font-size: 3vw;
   padding: 2%;
 }
 
@@ -579,7 +579,7 @@ h3{
   right: 10px;
   font-weight: 800;
   cursor: pointer;
-  font-size: 1vw;
+  font-size: 3vw;
 }
 
 }
