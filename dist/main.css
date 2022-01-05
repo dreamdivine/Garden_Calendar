@@ -483,3 +483,23 @@ h3, h4 {
   text-align: center;
   font-weight: bold;
 }
+
+.second-modal-bg {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.6vw;
+}
+
+.second_modal {
+  width: 30%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
