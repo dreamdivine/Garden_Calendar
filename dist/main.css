@@ -193,6 +193,8 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  position: relative;
+  left: 1vw;
 }
 
 .title {
@@ -378,12 +380,9 @@ button {
 
   .close {
     position: absolute;
-    top: 10px;
-    right: 10px;
-    font-weight: bold;
     cursor: pointer;
     width: 2vw;
-    font-size: 2vw;
+    color: black;
   }
 
   .main {
@@ -458,6 +457,11 @@ button {
     transition: opacity 0.25s;
     transform: translateY(20px);
     transition: transform 0.25s;
+  }
+
+  h3 {
+    font-size: 2vw;
+    font-weight: 500;
   }
 }
 h2, p {
