@@ -460,7 +460,9 @@ h3, h4 {
   position: absolute;
   cursor: pointer;
   width: 2vw;
-  color: black;
+  color: white;
+  font-weight: 600;
+  font-size: 5vw;
 }
  
 
@@ -546,8 +548,10 @@ h3{
 
 .second-modal-btn{
   position: relative;
-  bottom: 331vw;
-  left: 82vw;
+  // bottom: 331vw;
+  left: 77vw;
+  // bottom: 1145px;
+  bottom: 153vh;
   border: none;
   border: 1px solid gray;
   background-color: black;
@@ -561,7 +565,7 @@ h3{
 .second-modal {
   background-image: url(../images/plains.jpeg);
   width: 80%;
-  height: 45%;
+  height: 55%;
   background-position: 50% 50%;
   display: flex;
   flex-direction: column;
@@ -569,7 +573,7 @@ h3{
   align-items: center;
   position: relative;
   right: 1vw;
-  font-size: 3vw;
+  font-size: 2.5vw;
   padding: 2%;
 }
 
